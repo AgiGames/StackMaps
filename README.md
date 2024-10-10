@@ -5,8 +5,8 @@ A usecase of this would be the following:
 
 Consider a hashmap, whose values are Stack objects, where each stack holds all occurances of a value in different indeces
 
-+*Let number (n) be located at indeces (i, j)*
-+*To store n(i, j) in the Hash Map:*
+* *Let number (n) be located at indeces (i, j)*
+* *To store n(i, j) in the Hash Map:*
 
 ```bash
 n => [hashingFunction] => HashMap array index (Hi)
@@ -18,7 +18,7 @@ n => [hashingFunction] => HashMap array index (Hi)
  (Hi-2)   (Hi-1)   (Hi)            (Hi+1)   (Hi+2)
 ```
 
- +*Storing a number m(k, l) in Hi:
+ * *Storing a number m(k, l) in Hi:
 
  ```bash
 m => [hashingFunction] => HashMap array index (Hi)
@@ -30,4 +30,4 @@ m => [hashingFunction] => HashMap array index (Hi)
  (Hi-2)   (Hi-1)   (Hi)                     (Hi+1)   (Hi+2)
 ```
 
-#Thus, it can be used to store numbers of same values and different indeces under 1 easily accessible index.
+# Thus, it can be used to store numbers of same values and different indeces under 1 easily accessible index.
