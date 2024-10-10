@@ -18,7 +18,7 @@ n => [hashingFunction] => HashMap array index (Hi)
  (Hi-2)   (Hi-1)   (Hi)            (Hi+1)   (Hi+2)
 ```
 
- * *Storing a number m(k, l) in Hi:
+ * *Storing a number m(k, l) in Hi*:
 
  ```bash
 m => [hashingFunction] => HashMap array index (Hi)
